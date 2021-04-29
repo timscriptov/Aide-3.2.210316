@@ -75,6 +75,11 @@ public class f {
     private jf we;
     private AssetInstallationService yS;
 
+	public static af a8() {
+        // Заглушка
+		return null;
+    }
+	
 	public static boolean ca() {
 		// Заглушка
 		return false;
