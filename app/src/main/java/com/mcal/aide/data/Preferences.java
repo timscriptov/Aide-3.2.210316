@@ -17,9 +17,20 @@ import iy;
 import a6;
 import c7;
 import ag;
+import com.aide.ui.AIDEApplication;
 
 public class Preferences {
     private static Context j6;
+	private static SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(AIDEApplication.getContext());
+	
+	
+	public String gitLogin() {
+		return preferences.getString("git_login", "");
+	}
+	
+	public String gitPassword() {
+		return preferences.getString("git_password", "");
+	}
 	
     public static boolean BT() {
 		return XL().getBoolean("light_theme", true);
