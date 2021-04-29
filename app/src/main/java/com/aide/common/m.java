@@ -6,6 +6,7 @@ import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.graphics.Typeface;
+import android.preference.PreferenceManager;
 import android.util.SparseBooleanArray;
 import android.view.KeyEvent;
 import android.view.inputmethod.InputMethodManager;
@@ -13,18 +14,10 @@ import android.widget.EditText;
 import android.widget.TextView;
 import com.aide.ui.u;
 import com.aide.uidesigner.ProxyTextView;
+import com.mcal.aide.data.Preferences;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import cy;
-import dy;
-import fy;
-import gy;
-import iy;
-import ey;
-import android.preference.PreferenceManager;
-import com.mcal.aide.data.Preferences;
-import com.aide.ui.preferences.PreferencesActivity;
 
 public abstract class m {
     private static int WB = 123456;
