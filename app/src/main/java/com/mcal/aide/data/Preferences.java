@@ -24,11 +24,11 @@ public class Preferences {
 	private static SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(AIDEApplication.getContext());
 	
 	
-	public String gitLogin() {
+	public static String getGitLogin() {
 		return preferences.getString("git_login", "");
 	}
 	
-	public String gitPassword() {
+	public static String getGitPassword() {
 		return preferences.getString("git_password", "");
 	}
 	
